@@ -119,7 +119,7 @@ body {
 }
 /* -------------------------CAPA-FIM--------------------------- */
 /* -------------------------ITENS------------------------------ */
-.cards{
+.cards {
   width: 80%;
   margin: 0 auto;
   display: grid;
@@ -127,7 +127,6 @@ body {
   justify-items: center;
   gap: 40px;
   margin-bottom: 30px;
-
 }
 .banner-capa-itens {
   background: no-repeat center/cover url("../img/capa.jpg");
@@ -148,22 +147,22 @@ body {
   justify-content: center;
 }
 /* IMAGENS DOS CARDS */
-.imagen-joker{
+.imagen-joker {
   background: no-repeat center/cover url("../img/itens/Joker.jpg");
 }
-.imagen-after{
+.imagen-after {
   background: no-repeat center/cover url("../img/itens/After.jpg");
 }
-.imagen-marvel{
+.imagen-marvel {
   background: no-repeat center/cover url("../img/itens/Marvel.jpg");
 }
-.imagen-dora{
+.imagen-dora {
   background: no-repeat center/cover url("../img/itens/Dora.jpg");
 }
-.imagen-1917{
+.imagen-1917 {
   background: no-repeat center/cover url("../img/itens/1917.jpg");
 }
-.imagen-thor{
+.imagen-thor {
   background: no-repeat center/cover url("../img/itens/Thor.jpg");
 }
 
@@ -186,7 +185,7 @@ body {
   justify-content: space-between;
 }
 
-.conteudo-card-botao{
+.conteudo-card-botao {
   width: 100%;
   height: 50px;
   background: #33bb69;
@@ -201,55 +200,42 @@ body {
 }
 
 /* -------------------------ITENS-FIM--------------------------- */
+/*------------------PAGINA-CADA-FILME--------------------------- */
+.banner-filme {
+  height: 80vh;
+  margin-top: 60px;
+}
 
-/* BANNER INTERESTELAR */
 .banner-interestelar {
   background: no-repeat center/cover
     url("../img/interestelar/interestelar2.jpg");
-  height: 100vh;
-  margin-top: 60px;
   background-attachment: fixed;
 }
 
-/* BANNER VINGADORES */
 .banner-vingadores {
   background: no-repeat center/cover url("../img/vingadores/vingadores5.jpg");
-  height: 100vh;
-  margin-top: 60px;
   background-attachment: fixed;
 }
 
-/* BANNER DOUTOR ESTRANHO*/
 .banner-doutor_estranho {
   background: no-repeat center/cover
     url("../img/doutor_estranho/doutor_estranho1.jpg");
-  height: 100vh;
-  margin-top: 60px;
   background-attachment: fixed;
 }
 
-/* BANNER JOKER */
 .banner-joker {
   background: no-repeat center/cover url("../img/joker/joker2.jpg");
-  height: 100vh;
-  margin-top: 60px;
   background-attachment: fixed;
 }
 
-/* BANNER BATMAN */
 .banner-batman {
   background: no-repeat center/cover url("../img/batman/batman9.jpg");
-  height: 100vh;
-  margin-top: 60px;
   background-attachment: fixed;
 }
 
-/* BANNER HOMEM-ARANHA */
 .banner-homem_aranha {
   background: no-repeat center/cover
     url("../img/homem_aranha/homem_aranha4.jpg");
-  height: 100vh;
-  margin-top: 60px;
   background-attachment: fixed;
 }
 
