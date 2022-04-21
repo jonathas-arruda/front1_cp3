@@ -1,12 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-/* NÃO USAR ASS:JHOW */
-.botao-teste-rota {
-  height: 600px;
-  width: 600px;
-  font-size: xx-large;
-  border-radius: 5px;
-  background-color: bisque;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+/* h1 {
+}
+h2 {
+}
+h3 {
+} */
+h4 {
+  font-size: x-large;
+}
+p {
+  font-weight: 300;
+  font-size: 18px;
 }
 
 * {
@@ -30,6 +34,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 .container-menu {
   width: 80%;
@@ -42,7 +47,7 @@ body {
 
 .logo {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .logo span {
@@ -56,7 +61,7 @@ body {
 
 .menu a {
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 .menu a:hover {
@@ -74,7 +79,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.container-capa{
+.container-capa {
   display: grid;
 }
 
@@ -84,8 +89,7 @@ body {
   font-weight: 900;
   font-size: 72px;
   color: #e51b3e;
-  margin-bottom:  10px 0;
-
+  margin-bottom: 10px 0;
 }
 .confira {
   font-family: "Roboto";
@@ -94,7 +98,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
-  margin:  10px 0;
+  margin: 10px 0;
 }
 
 /* BOTÃO EXPLORAR NA CAPA */
@@ -105,14 +109,98 @@ body {
   background: rgba(51, 187, 105, 0.08);
   box-sizing: border-box;
   border: 2px solid #33bb69;
-  margin:  20px 0;
-  justify-self:center;
+  margin: 20px 0;
+  justify-self: center;
 }
 .texto-explorar {
   font-size: x-large;
   color: #ffffff;
   font-weight: 300;
 }
+/* -------------------------CAPA-FIM--------------------------- */
+/* -------------------------ITENS------------------------------ */
+.cards{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+
+}
+.banner-capa-itens {
+  background: no-repeat center/cover url("../img/capa.jpg");
+  height: 60vh;
+  margin-top: 60px;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itens-texto {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 48px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+/* IMAGENS DOS CARDS */
+.imagen-joker{
+  background: no-repeat center/cover url("../img/itens/Joker.jpg");
+}
+.imagen-after{
+  background: no-repeat center/cover url("../img/itens/After.jpg");
+}
+.imagen-marvel{
+  background: no-repeat center/cover url("../img/itens/Marvel.jpg");
+}
+.imagen-dora{
+  background: no-repeat center/cover url("../img/itens/Dora.jpg");
+}
+.imagen-1917{
+  background: no-repeat center/cover url("../img/itens/1917.jpg");
+}
+.imagen-thor{
+  background: no-repeat center/cover url("../img/itens/Thor.jpg");
+}
+
+.card-itens {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.1));
+  display: flex;
+  align-items: flex-end;
+}
+.conteudo-card {
+  width: 100%;
+  height: 270px;
+  border-radius: 12px;
+  background: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conteudo-card-botao{
+  width: 100%;
+  height: 50px;
+  background: #33bb69;
+  border-radius: 12px;
+  border-style: none;
+  color: #ffffff;
+  font-size: x-large;
+  justify-self: flex-end;
+}
+.conteudo-card-descricao {
+  margin: 10px 0;
+}
+
+/* -------------------------ITENS-FIM--------------------------- */
 
 /* BANNER INTERESTELAR */
 .banner-interestelar {
@@ -221,6 +309,7 @@ iframe {
 .rodape {
   height: 300px auto;
   background-color: #0c0c14;
+  border-top: 4px solid #e51b3e;
 }
 
 .container-footer {
