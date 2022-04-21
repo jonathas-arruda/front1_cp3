@@ -62,11 +62,12 @@ body {
 .menu a:hover {
   color: #DC471F;
 }
-/* BANNER PRINCIPAL */
-.banner {
-  background: no-repeat center/cover url("../img/joker/bannerJoker.svg");
+/* BANNER CAPA */
+.banner-capa {
+  background: no-repeat center/cover url("../img/capa.jpg");
   height: 100vh;
   margin-top: 60px;
+  background-attachment: fixed;
 }
 
 /* BANNER INTERESTELAR */
@@ -74,6 +75,8 @@ body {
   background: no-repeat center/cover url("../img/interestelar/interestelar2.jpg");
   height: 100vh;
   margin-top: 60px;
+  background-attachment: fixed;
+
 }
 
 /* BANNER VINGADORES */
@@ -81,6 +84,8 @@ body {
   background: no-repeat center/cover url("../img/vingadores/vingadores5.jpg");
   height: 100vh;
   margin-top: 60px;
+  background-attachment: fixed;
+
 }
 
 /* BANNER DOUTOR ESTRANHO*/
@@ -88,6 +93,8 @@ body {
   background: no-repeat center/cover url("../img/doutor_estranho/doutor_estranho1.jpg");
   height: 100vh;
   margin-top: 60px;
+  background-attachment: fixed;
+
 }
 
 /* BANNER JOKER */
@@ -95,6 +102,8 @@ body {
   background: no-repeat center/cover url("../img/joker/joker2.jpg");
   height: 100vh;
   margin-top: 60px;
+  background-attachment: fixed;
+
 }
 
 /* BANNER BATMAN */
@@ -102,6 +111,7 @@ body {
   background: no-repeat center/cover url("../img/batman/batman9.jpg");
   height: 100vh;
   margin-top: 60px;
+  background-attachment: fixed;
 }
 
 /* BANNER HOMEM-ARANHA */
@@ -109,6 +119,7 @@ body {
   background: no-repeat center/cover url("../img/homem_aranha/homem_aranha4.jpg");
   height: 100vh;
   margin-top: 60px;
+  background-attachment: fixed;
 }
 
 
