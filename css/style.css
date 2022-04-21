@@ -46,7 +46,7 @@ body {
   font-weight: bold;
 }
 .logo span {
-  color: #DC471F;
+  color: #e51b3e;
 }
 
 .menu ul {
@@ -60,23 +60,67 @@ body {
   font-weight: bold;
 }
 .menu a:hover {
-  color: #DC471F;
+  color: #e51b3e;
 }
+/* -------------------------CAPA--------------------------- */
 /* BANNER CAPA */
 .banner-capa {
   background: no-repeat center/cover url("../img/capa.jpg");
   height: 100vh;
   margin-top: 60px;
   background-attachment: fixed;
+  border-bottom: 4px solid #e51b3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-capa{
+  display: grid;
+}
+
+.titulo-capa {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  color: #e51b3e;
+  margin-bottom:  10px 0;
+
+}
+.confira {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin:  10px 0;
+}
+
+/* BOTÃO EXPLORAR NA CAPA */
+.button-explorar {
+  width: 322px;
+  height: 71px;
+  border-radius: 12px;
+  background: rgba(51, 187, 105, 0.08);
+  box-sizing: border-box;
+  border: 2px solid #33bb69;
+  margin:  20px 0;
+  justify-self:center;
+}
+.texto-explorar {
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: 300;
 }
 
 /* BANNER INTERESTELAR */
 .banner-interestelar {
-  background: no-repeat center/cover url("../img/interestelar/interestelar2.jpg");
+  background: no-repeat center/cover
+    url("../img/interestelar/interestelar2.jpg");
   height: 100vh;
   margin-top: 60px;
   background-attachment: fixed;
-
 }
 
 /* BANNER VINGADORES */
@@ -85,16 +129,15 @@ body {
   height: 100vh;
   margin-top: 60px;
   background-attachment: fixed;
-
 }
 
 /* BANNER DOUTOR ESTRANHO*/
 .banner-doutor_estranho {
-  background: no-repeat center/cover url("../img/doutor_estranho/doutor_estranho1.jpg");
+  background: no-repeat center/cover
+    url("../img/doutor_estranho/doutor_estranho1.jpg");
   height: 100vh;
   margin-top: 60px;
   background-attachment: fixed;
-
 }
 
 /* BANNER JOKER */
@@ -103,7 +146,6 @@ body {
   height: 100vh;
   margin-top: 60px;
   background-attachment: fixed;
-
 }
 
 /* BANNER BATMAN */
@@ -116,12 +158,12 @@ body {
 
 /* BANNER HOMEM-ARANHA */
 .banner-homem_aranha {
-  background: no-repeat center/cover url("../img/homem_aranha/homem_aranha4.jpg");
+  background: no-repeat center/cover
+    url("../img/homem_aranha/homem_aranha4.jpg");
   height: 100vh;
   margin-top: 60px;
   background-attachment: fixed;
 }
-
 
 .titulo-principal {
   font-size: 3.4rem;
@@ -148,7 +190,6 @@ body {
   gap: 30px;
 }
 
-
 .producao h2 {
   font-size: 2.2rem;
   color: #000000;
@@ -159,7 +200,6 @@ body {
   color: rgba(0, 133, 255, 0.75);
   font-weight: normal;
 }
-
 
 .video {
   height: 500px;
@@ -180,7 +220,7 @@ iframe {
 /* FOOTER */
 .rodape {
   height: 300px auto;
-  background-color: #0C0C14;
+  background-color: #0c0c14;
 }
 
 .container-footer {
@@ -226,7 +266,7 @@ iframe {
   color: #ffffff;
 }
 .circulo i:hover {
-  color: #DC471F;
+  color: #e51b3e;
 }
 
 /* RESPONSIVO */
@@ -265,7 +305,7 @@ iframe {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .menu ul{
+  .menu ul {
     margin-top: 40px;
     display: flex;
 
