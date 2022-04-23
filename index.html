@@ -12,15 +12,34 @@
 </head>
 
 <body>
+    <input class="checkbox-modal" type="checkbox" id="modal-checkbox">
+    <div class="modal">
+        <div class="conteudo-modal">
+            <div class="container-botao">
+                <label type="button" class="fechar-modal" for="modal-checkbox"><span class="xis">&#10005;</span></label>
+            </div>
+            <div class="conteudo-form">
+                <form action="">
+                    <input class="input-form" type="email" name="" placeholder="email:" id=""><br>
+                    <input class="input-form" type="password" name="" placeholder="senha:" id="">
+                </form>
+                <a class="button-entrar" href="pages/itens.html">Entrar</a>
+            </div>
+        </div>
+
+    </div>
+
     <header class="head">
         <div class="container-menu">
-            <a href="#"><div class="logo">HOUSE<span> FLIX</span></div></a></a>
+            <a href="#">
+                <div class="logo">HOUSE<span> FLIX</span></div>
+            </a></a>
             <nav class="menu">
                 <ul>
-                    <li class="itens-menu"><a href="../index.html">Home</a></li>
+                    <li class="itens-menu"><a href="#">Home</a></li>
                     <li class="itens-menu"><a href="#">itens</a></li>
                     <li class="itens-menu"><a href="#">Sobre nós</a></li>
-                    <li class="itens-menu"><a href="#">Login</a></li>
+                    <li class="itens-menu"><label class="abrir-modal" for="modal-checkbox">Login</label></li>
 
                 </ul>
             </nav>
@@ -31,11 +50,12 @@
             <div class="container-capa">
                 <div class="logo logo-capa">HOUSE<span> FLIX</span></div>
                 <p class="confira ">Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
-                <button class="button-explorar">
-                    <h3 class="texto-explorar">Explorar</h3>
-                </button>
+                <label class="button-explorar" for="modal-checkbox">Explorar</label>
             </div>
+
+
         </section>
+
     </main>
 
     <footer class="rodape">
