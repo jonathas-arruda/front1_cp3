@@ -502,6 +502,11 @@ iframe {
 /* RESPONSIVO */
 
 @media (max-width: 768px) {
+
+  .logo{
+    margin-bottom: 20px;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -533,10 +538,13 @@ iframe {
   }
 
   .container-menu {
-    height: 150px;
+    height:100%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   .container-footer {
@@ -553,6 +561,9 @@ iframe {
   }
 
   @media (max-width: 425px) {
+    .logo{
+      margin-bottom: 20px;
+    }
     .cards {
       display: grid;
       grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -577,24 +588,6 @@ iframe {
 
     .logo-capa {
       font-size: 5rem;
-    }
-
-    .container-menu {
-      height: 100%;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      margin: 0 auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-
-    .menu ul {
-      margin-top: 40px;
-      display: flex;
-
-      flex-direction: column;
-      align-items: center;
     }
 
     .container-footer {
