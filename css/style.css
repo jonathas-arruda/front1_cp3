@@ -522,29 +522,33 @@ iframe {
     display: grid;
     gap: 20px;
     width: 90%;
+  }
 
-  }
-  .titulo-capa {
-    font-size: 5rem;    
-  }
   .logo-capa {
-    font-size: 5rem;
-  }
-
-  .container-menu {
-    height: 150px;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    font-size: 6rem;
   }
 
   .container-footer {
     flex-direction: column;
     align-items: center;
   }
-
   .banner {
     margin-top: 150px;
+  }
+ 
+
+  }
+  .titulo-capa {
+    font-size: 5rem;    
+  }
+  .logo {
+   margin-top: 10px; 
+  }
+  .container-menu {
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .video {
