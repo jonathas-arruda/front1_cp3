@@ -28,6 +28,7 @@ p {
 html,
 body {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 /* --------------------------- */
@@ -293,24 +294,24 @@ label:hover {
   background: no-repeat center/cover url("../img/itens/Joker.jpg");
 }
 
-.imagen-after {
-  background: no-repeat center/cover url("../img/itens/After.jpg");
+.imagen-batman {
+  background: no-repeat center/cover url("../img/batman/batman9.jpg");
 }
 
-.imagen-marvel {
-  background: no-repeat center/cover url("../img/itens/Marvel.jpg");
+.imagen-doutor-estranho {
+  background: no-repeat center/cover url("../img/doutor_estranho/doutor_estranho1.jpg");
 }
 
-.imagen-dora {
-  background: no-repeat center/cover url("../img/itens/Dora.jpg");
+.imagen-homem-aranha {
+  background: no-repeat center/cover url("../img/homem_aranha/homem_aranha4.jpg");
 }
 
-.imagen-1917 {
-  background: no-repeat center/cover url("../img/itens/1917.jpg");
+.imagen-interestelar {
+  background: no-repeat right/cover url("../img/interestelar/interestelar2.jpg");
 }
 
-.imagen-thor {
-  background: no-repeat center/cover url("../img/itens/Thor.jpg");
+.imagen-vingadores {
+  background: no-repeat center/cover url("../img/vingadores/vingadores5.jpg");
 }
 
 .card-itens {
@@ -351,7 +352,7 @@ label:hover {
 /* -------------------------ITENS-FIM--------------------------- */
 /*------------------PAGINA-CADA-FILME--------------------------- */
 .banner-filme {
-  height: 80vh;
+  height: 100vh;
   margin-top: 60px;
 }
 
@@ -522,54 +523,31 @@ iframe {
     display: grid;
     gap: 20px;
     width: 90%;
-  }
-
-  .logo-capa {
-    font-size: 6rem;
-  }
-
-  .container-footer {
-    flex-direction: column;
-    align-items: center;
-  }
-  .banner {
-    margin-top: 150px;
-  }
- 
 
   }
   .titulo-capa {
     font-size: 5rem;    
   }
-  .logo {
-   margin-top: 10px; 
-  }
-<<<<<<< Updated upstream
-=======
-  .logo {
-   margin-top: 10px; 
-  }
   .logo-capa {
     font-size: 5rem;
   }
->>>>>>> Stashed changes
+
   .container-menu {
-    height: 100px;
+    height: 150px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
-<<<<<<< Updated upstream
 
-=======
   .container-footer {
     flex-direction: column;
     align-items: center;
   }
+
   .banner {
     margin-top: 150px;
   }
->>>>>>> Stashed changes
+
   .video {
     height: 400px;
   }
