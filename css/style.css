@@ -6,6 +6,29 @@ h2 {
 h3 {
 } */
 
+
+h4 {
+  font-size: x-large;
+}
+p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+/* --------------------------- */
 /*  MODAL LOGIN*/
 .container-botao{
   width: 100%;
@@ -67,7 +90,7 @@ h3 {
 }
 
 .conteudo-modal {
-  width: 30%;
+  width: 40%;
   height: 40%;
   padding: 10px;
   border-radius: 12px;
@@ -108,27 +131,6 @@ h3 {
   transition: 0.4s;
 }
 /* FINAL MODAL LOGIN */
-h4 {
-  font-size: x-large;
-}
-p {
-  font-weight: 300;
-  font-size: 18px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-html,
-body {
-  font-size: 62.5%;
-}
 
 /* MENU */
 .head {
@@ -456,13 +458,32 @@ iframe {
 
 /* RESPONSIVO */
 
-@media (max-width: 725px) {
+@media (max-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .producao {
     gap: 30px;
   }
-}
+  .conteudo-modal {
+    width: 60%;
+    height: 40%;
+    padding: 10px;
+    border-radius: 12px;
+    background: #0e0d0d; 
+  }
+  .container-capa {
+    display: grid;
+    gap: 20px;
+    width: 90%;
+   
+  }
 
-@media (max-width: 525px) {
+  .logo-capa {
+    font-size: 6rem;
+  }
+
   .container-menu {
     height: 150px;
     flex-direction: column;
@@ -479,8 +500,30 @@ iframe {
   .video {
     height: 400px;
   }
-}
-@media (max-width: 325px) {
+
+@media (max-width: 425px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .conteudo-modal {
+    width: 90%;
+    height: 40%;
+    padding: 10px;
+    border-radius: 12px;
+    background: #0e0d0d; 
+  }
+  .container-capa {
+    display: grid;
+    gap: 20px;
+    width: 90%;
+   
+  }
+
+  .logo-capa {
+    font-size: 5rem;
+  }
+  
   .container-menu {
     height: 100%;
     flex-direction: column;
